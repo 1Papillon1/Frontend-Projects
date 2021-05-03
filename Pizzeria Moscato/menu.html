@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Pizzeria Moscato</title>
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <script src="js/orders.js"></script>
+</head>
+<body>
+<header>
+    <div class='header-rect left'></div>
+    <a href='index.html'><img class='logo' src="img/logo.png" alt="logo-img" width="151px" height="143px"></a>
+    <div class='header-rect right'></div>
+
+    <div class='flex-container'>
+
+        <a href="menu.html">
+        <div class='flex-box-nav'>
+            <img src="img/main-pizza-2.jpg" alt="pizza-img" width='370' height='270'>
+            <div class='opacity'></div>
+            <h1 class='menu'>MENU</h1>
+        </div>
+        </a>
+
+        <a href="index.html">
+        <div class='flex-box-nav'>
+            <img src="img/main-pizza-1.jpg" alt="pizza-img" width='370' height='270'>
+            <div class='opacity'></div>
+            <h1 class='home'>HOME</h1>
+        </div>
+        </a>
+
+        <a href="contact.html">
+        <div class='flex-box-nav'>
+            <img src="img/main-pizza-3.jpg" alt="pizza-img" width='370' height='270'>
+            <div class='opacity'></div>
+            <h1 class='contact'>CONTACT</h1>
+        </div>
+        </a>
+
+    </div>
+</header>
+
+<hr/>
+
+<table class='catalog'>
+    <caption>Catalog</caption>
+    <thead>
+        <tr>
+            <th class='pizza'><span style='margin-left:17px'>Pizza's and ingredients</span></th>
+            <th class='size'>Small</th>
+            <th class='size'>Large</th>
+            <th class='size'>Extra large</th>
+            <th>Add to <br/>Cart</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <span class='name'>Capricciosa</span> <br/>
+                <span class='ingredients'>(tomato, cheese, ham, mushrooms)</span>
+            </td>
+            <td class='price'>$12.99</td>
+            <td class='price'>$16.50</td>
+            <td class='price'>$19.99</td>
+            <!--IMAGE SOURCE: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4bw7R3A7KV5zMlKQCfFPjWvq3bY3_Ll0-DQ&usqp=CAU-->
+            <td><img onclick='addCapricciosa()' class='cart' src="img/shopping-cart.png" alt="shopping-cart"/></td>
+        </tr>
+        <tr>
+            <td>
+                <span class='name'>Margharita</span> <br/>
+                <span class='ingredients'>(tomato, cheese)</span>
+            </td>
+            <td class='price'>$8.99</td>
+            <td class='price'>$10.99</td>
+            <td class='price'>$11.99</td>
+            <td><img onclick='addMargharita()' class='cart' src="img/shopping-cart.png" alt="shopping-cart"/></td>
+        </tr>
+        <tr>
+            <td>
+                <span class='name'>Hawaiian</span> <br/>
+                <span class='ingredients'>(tomato sauce, ham, pineapple, mozzarella)</span>
+            </td>
+            <td class='price discount'>$6.99</td>
+            <td class='price'>$14.55</td>
+            <td class='price'>16.00</td>
+            <td><img onclick='addHawaiian()' class='cart' src="img/shopping-cart.png" alt="shopping-cart"/></td>
+        </tr>
+        <tr>
+            <td>
+                <span class='name'>Vegeterian</span> <br/>
+                <span class='ingredients'>(mushroom, onion, pepper, tomato, brocculi, artichoke)</span>
+            </td>
+            <td class='price'>$13.49</td>
+            <td class='price'>$17.99</td>
+            <td class='price'>$21.50</td>
+            <td><img onclick='addVegeterian()' class='cart' src="img/shopping-cart.png" alt="shopping-cart"/></td>
+        </tr>
+        <tr>
+            <td>
+                <span class='name'>Mulberry</span> <br/>
+                <span class='ingredients'>(sausage, bacon, beef, sauce)</span>
+            </td>
+            <td class='price'>$12.99</td>
+            <td class='price'>$16.50</td>
+            <td class='price'>$19.99</td>
+            <td><img onclick='addMulberry()' class='cart' src="img/shopping-cart.png" alt="shopping-cart"/></td>
+        </tr>
+        <tr>
+            <td>
+                <span class='name'>Rustica Chicken</span> <br/>
+                <span class='ingredients'>(grilled chicken, tomato, basil, olive oil, fresh garlic)</span>
+            </td>
+            <td class='price'>$15.00</td>
+            <td class='price'>$18.99</td>
+            <td class='price'>$21.50</td>
+            <td><img onclick='addRusticaChicken()' class='cart' src="img/shopping-cart.png" alt="shopping-cart"/></td>
+        </tr>
+        <tr>
+            <td>
+                <span class='name'>Meditarranean</span> <br/>
+                <span class='ingredients'>(spinach, tomato, cheese, black olives, Sicilian olive oil, garlic sauce)</span>
+            </td>
+            <td class='price'>$16.50</td>
+            <td class='price'>$19.49</td>
+            <td class='price'>$23.99</td>
+            <td><img onclick='addMeditarranean()' class='cart' src="img/shopping-cart.png" alt="shopping-cart"/></td>
+        </tr>
+        <tr>
+            <td>
+                <span class='name'>BBQ Chicken</span> <br/>
+                <span class='ingredients'>(bbq grilled chicken, red onions, cheese, pineapple, bbq sauce)</span>
+            </td>
+            <td class='price'>$16.00</td>
+            <td class='price'>$18.50</td>
+            <td class='price'>$21.50</td>
+            <td><img onclick='addBBQChicken()' class='cart' src="img/shopping-cart.png" alt="shopping-cart"/></td>
+        </tr>
+
+    </tbody>
+</table>
+
+<div class='payment'>
+    <div class='order'>
+    <button type="submit">Order</button>
+    </div>
+    <div id='total'>
+        Total: </br>
+        $0.00
+    </div>
+</div>
+
+<footer style='margin-top:120px;'>
+    <div class='flex-container'>
+        <div class='flex-box-footer'>
+            <h3>Partners</h3>
+            <ul>
+                <li>NY Pizza</li>
+                <li>At Lenny's</li>
+                <li>Manhattan Restaurant</li>
+            </ul>
+        </div>
+        <div class='flex-box-footer'>
+            <h3>What's new</h3>
+            <ul>
+                <li>Discount Price</li>
+                <li>Faster Deliveries</li>
+            </ul>
+        </div>
+        <div class='flex-box-footer'>
+            <h3>Contact</h3>
+            <ul>
+                <li>Subscribe to Email</li>
+                <li>999-999-9999</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+    </div>
+    <div class='flex-container'>
+        <div class='flex-box-copyright'>
+            &copy; 2021 PIZZERIA MOSCATO
+        </div> 
+    </div>
+</footer>
+
+</body>
+</html>

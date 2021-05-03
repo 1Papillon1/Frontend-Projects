@@ -1,0 +1,288 @@
+.header-rect {
+  width: 821px;
+  height: 84px;
+  background-color: #E8137A;
+}
+
+.left {
+  float: left;
+  border-bottom-right-radius: 15px;
+}
+
+.logo {
+  margin-left: 63px;
+}
+
+.right {
+  float: right;
+  border-bottom-left-radius: 15px;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-container a {
+  text-decoration: none;
+}
+
+.flex-box-nav {
+  margin: 0px 91px;
+  font-family: "Rye", cursive;
+}
+
+.flex-box-nav img {
+  border-radius: 50%;
+}
+
+.flex-box-nav .opacity {
+  background: white;
+  position: absolute;
+  width: 500px;
+  height: 112px;
+  margin-top: -300px;
+  margin-left: -50px;
+  opacity: 0.8;
+}
+
+.flex-box-nav h1 {
+  color: black;
+  position: absolute;
+  margin-top: -320px;
+  margin-left: 20px;
+  font-size: 96px;
+  font-weight: 200;
+}
+
+.flex-box-nav .contact {
+  margin-left: -40px;
+}
+
+hr {
+  border: 1px solid #E8137A;
+  margin-top: 140px;
+}
+
+.section {
+  margin-top: 65px;
+  margin-left: 356px;
+  margin-right: 616px;
+}
+
+.article-numbers {
+  float: left;
+}
+
+.article-paragraph {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 88px;
+  font-family: "Rye", cursive;
+  font-size: 24px;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+
+.numbers-title {
+  margin-left: 10px;
+}
+
+.numbers {
+  color: #E8137A;
+}
+
+.article-description {
+  position: absolute;
+  margin-left: 410px;
+  margin-right: 616px;
+  margin-top: 17px;
+  font-family: Cabin;
+}
+
+.article-description h3 {
+  font-size: 24px;
+}
+
+.article-description p {
+  font-size: 18px;
+}
+
+table {
+  margin: auto;
+  margin-top: 84px;
+}
+
+table, caption, th, tr, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+caption {
+  color: white;
+  background: black;
+  border-bottom: none;
+  font-family: "Rye", cursive;
+  font-size: 64px;
+  height: 92px;
+}
+
+th {
+  height: 80px;
+  color: white;
+  background: #E8137A;
+  font-family: "Rye", cursive;
+  font-size: 24px;
+}
+
+.cart {
+  width: 94px;
+  height: 86px;
+}
+
+.cart:hover {
+  cursor: pointer;
+}
+
+.pizza {
+  text-align: left;
+  width: 429px;
+  margin-left: 17px;
+}
+
+.size {
+  width: 171px;
+}
+
+td {
+  font-family: "Ropa Sans", sans-serif;
+  height: 80px;
+}
+
+.name {
+  font-size: 24px;
+  margin-left: 17px;
+}
+
+.ingredients {
+  font-size: 16px;
+  margin-left: 17px;
+}
+
+.price {
+  text-align: center;
+  font-size: 24px;
+}
+
+.discount {
+  color: red;
+}
+
+.payment {
+  margin: 0 auto;
+  margin-top: 173px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.order {
+  margin: auto;
+  text-align: center;
+  margin-right: 46.51%;
+}
+
+.order button {
+  width: 354px;
+  height: 110px;
+  background: #E8137A;
+  outline: none;
+  border: 0px;
+  border-radius: 15px;
+  font-family: "Rye", cursive;
+  font-size: 24px;
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.order button:hover {
+  cursor: pointer;
+  border-radius: 0px;
+  color: white;
+  background: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#total {
+  position: absolute;
+  width: 250px;
+  margin-left: 290px;
+  padding: 25px 0px;
+  background: black;
+  font-family: "Rye", cursive;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  width: auto;
+  height: 349px;
+  background: black;
+  margin-top: 627px;
+}
+
+.flex-box-footer {
+  color: white;
+  margin: 0 132px;
+  margin-top: 50px;
+}
+
+.flex-box-footer h3 {
+  font-family: Cabin;
+  font-size: 24px;
+}
+
+.flex-box-footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: Cabin;
+  font-size: 18px;
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.flex-box-copyright {
+  color: white;
+  font-family: Cabin;
+  font-size: 24px;
+}
+
+body {
+  margin: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+/*# sourceMappingURL=base.css.map */
