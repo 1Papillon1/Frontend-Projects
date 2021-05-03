@@ -1,0 +1,112 @@
+@import '../_variables'
+@import '../_mixins'
+
+.slideshow 
+    position: absolute
+    @include default-margin
+    height: 532px
+    top: 173px
+    .mySlides 
+        display: none
+    .fade 
+        -webkit-animation-name: fade 
+        -webkit-animation-duration: 2s 
+        animation-name: fade 
+        animation-duration: 2s
+    @-webkit-keyframes fade 
+        from {opacity: 0.7}
+        to {opacity: 1}
+    @keyframes fade 
+        from {opacity: 0.7} 
+        to {opacity: 1}
+    .angle-left 
+        position: absolute
+        float: left
+        top: 198px
+    .angle-right 
+        position: absolute 
+        float: right 
+        top: 198px
+        right: 0
+    .angles:hover 
+        cursor: pointer
+    .dots-div
+        position: absolute 
+        top: 496px
+        width: 100%
+        text-align: center
+        .dot 
+            cursor: pointer 
+            width: 15px 
+            height: 15px
+            background-color: #C4C4C4 
+            margin: 0 7px
+            opacity: 0.8
+            border-radius: 50% 
+            display: inline-block
+            transition: background-color 0.5s ease
+        .dot:hover 
+            background-color: #4E4E4E
+        .active 
+            background-color: #4E4E4E
+
+.about-container
+    position: absolute 
+    top: 741px
+    @include default-margin
+    font-size: 20px
+    h3 
+        font-family: $primaryfontfamily
+    p 
+        font-family: $textfontfamily
+
+.flex-container 
+    position: absolute 
+    margin-top: 969px 
+    @include default-margin
+    display: flex
+    flex-wrap: wrap
+    div 
+        @include flex-item
+        h4 
+            margin: 23px 0px 21px 22px
+            font-family: $primaryfontfamily
+            font-size: 18px
+        p 
+            margin-left: 22px
+            width: 217px
+            font-family: $textfontfamily
+            font-size: 14px
+        img 
+            float: right 
+            margin-right: 30px
+            margin-top: -34px
+            width: 210px 
+            height: 129px 
+    div:nth-child(even) 
+            margin-left: 70px
+.destinations-link 
+    text-decoration: none
+    .see-destinations
+        position: absolute 
+        @include default-margin 
+        margin-top: 1843px
+        transition: 0.6s
+        img 
+            width: 25%
+            height: 220px
+            float: left
+            opacity: 0.7
+        h2 
+            position: absolute
+            z-index: 1
+            width: 100%
+            text-align: center
+            margin-top: 76px 
+            font-family: $primaryfontfamily
+            font-size: 48px
+            color: black
+    .see-destinations:hover h2 
+        font-size: 54px
+        transition: 0.6s
+

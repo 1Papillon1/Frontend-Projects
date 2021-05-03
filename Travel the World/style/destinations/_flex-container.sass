@@ -1,0 +1,87 @@
+@import '../_variables'
+@import '../_mixins'
+
+.flex-container 
+    @include default-margin 
+    position: absolute
+    margin-top: 341px
+    display: flex 
+    justify-content: left
+    flex-wrap: wrap
+    width: 1450px
+    div 
+        width: 272px
+        text-align: left
+        margin-left: 0px
+        margin-right: 139px
+        margin-top: 475px 
+        img 
+            @include search-flex-img
+            position: absolute
+        h3 
+            font-family: $primaryfontfamily
+            font-size: 18px
+            position: absolute 
+            margin-top: 194px
+            width: 272px
+        p 
+            font-family: $textfontfamily
+            font-size: 14px
+            position: absolute
+            margin-top: 228px
+            width: 272px
+        .read-more
+            position: absolute
+            background: #000000
+            color: white
+            outline: none
+            border: none
+            padding: 6px 14px
+            font-family: $primaryfontfamily
+            font-size: 16px
+            transition: 0.5s
+            margin-top: 345px
+            margin-left: 5%
+        .read-more:hover 
+            cursor: pointer 
+            border-radius: 15px
+            transition: 0.5s
+    div:nth-child(1) 
+        margin-top: 0
+    div:nth-child(2) 
+        margin-top: 0
+    div:nth-child(3) 
+        margin-top: 0
+
+.read-div
+    position: fixed 
+    margin-top: 140px
+    margin-left: 521px
+    background: white
+    width: 878px 
+    height: 790px
+    border: 1px solid black
+    z-index: 3
+    transition: 0.5s
+    display: none
+    .close 
+        float: right 
+        margin-right: 21px
+        margin-top: 23px
+    .close:hover 
+        cursor: pointer
+    img 
+        width: 620px 
+        height: auto
+        display: block 
+        margin: auto
+        margin-top: 80px
+    h3
+        margin-left: 127px
+        font-family: $primaryfontfamily
+        font-size: 18px
+    p 
+        margin-left: 127px
+        margin-right: 127px
+        font-family: $textfontfamily
+        font-size: 14px

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="title" content="HOME | Travel the World">
+    <meta name="description" content="All about the site Travel the World, project that brings you the best tourist destinations in the world that you can visit">
+    <meta name="keywords" content="travel, world, tourism, tourist destinations">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <link rel="stylesheet" href="style/about/about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <title>ABOUT | Travel the World</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop() > 50){
+                    $(".nav-bg").css({
+                        "opacity" : "1",
+                        "border-bottom" : "1px solid black"
+                        })
+                }
+                else {
+                    $(".nav-bg").css({
+                        "opacity" : "0.3",
+                        "border-bottom" : "0px"
+                                    })
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+    <header>
+        <div class='nav-bg'>
+        </div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a style='border-bottom: 1px solid #4E4E4E' href="about.html">ABOUT</a></li>
+            <li><a href="destinations.html">DESTINATIONS</a></li>
+            <li><a href='contact.html'>CONTACT</a></li>
+        </ul>
+    </header>
+
+    <div class='slideshow'>
+        <div class="mySlides fade">
+            <img src="../Travel the World/img/venice.jpg" style="width:100%;height:532px;">
+        </div>
+        <div class="mySlides fade">
+            <img src="../Travel the World/img/angelfalls-flex-1.jpg" style="width:100%;height:532px">
+        </div>
+        <div class="mySlides fade">
+            <img src="../Travel the World/img/provence.jpg" style="width:100%;height:532px">
+        </div>
+        <div class="mySlides fade">
+            <img src="../Travel the World/img/uluru.jpg" style="width:100%;height:532px">
+        </div>
+        <div class="mySlides fade">
+            <img src="../Travel the World/img/faroe.jpg" style="width:100%;height:532px">
+        </div>
+
+        <a onclick='plusSlides(-1)'>
+        <svg class='angle-left angles' width="128" height="136" viewBox="0 0 128 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M78.854 35L42 68L78.854 101L85 95.5006L54.2832 68L85 40.4994L78.854 35Z" fill="#C4C4C4"/>
+        </svg>
+        </a>
+        <a onclick='plusSlides(1)'>
+        <svg class='angle-right angles' width="128" height="136" viewBox="0 0 128 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M48.146 101L85 68L48.146 35L42 40.4994L72.7168 68L42 95.5006L48.146 101Z" fill="#C4C4C4"/>
+        </svg>
+        </a>
+        
+        <div class='dots-div'>
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+        </div>
+
+            
+    </div>
+
+    <div class='about-container'>
+        <h3>Travel the World</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla 
+            eget laoreet nulla. Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Donec congue pretium semper. Proin laoreet velit nec 
+            neque varius efficitur. Quisque quis molestie nisl. Curabitur ac mauris 
+            dictum, ornare sapien sed, efficitur lectus. Integer at ex viverra, 
+            mattis lectus ac, porta lorem. Sed hendrerit sapien nunc, sit amet 
+            bibendum nulla sodales elementum. Ut consequat tristique tellus nec 
+            sodales. Praesent rhoncus felis at odio scelerisque elementum. In 
+            pharetra vestibulum mi. Donec ut sem vel sem volutpat dictum in ac 
+            libero. Nam odio massa, lobortis sit amet viverra ac, elementum vel 
+            libero. Sed viverra dui et dignissim dictum. Curabitur vitae lobortis 
+            magna. Fusce ut nibh vel justo iaculis pulvinar ac nec lectus.
+        </p>
+    </div>
+
+    <div class='flex-container'>
+        <div>
+            <h4>Europe</h4>
+            <img src="img/venice.jpg" alt="venice-img">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Proin libero lorem, tincidunt non purus quis, euismod tempor dui. 
+                Donec tempus sollicitudin sodales.
+            </p>
+        </div>
+
+        <div>
+            <h4>North America</h4>
+            <img src="img/antelope.jpg" alt="antelope-img">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Proin libero lorem, tincidunt non purus quis, euismod tempor dui. 
+                Donec tempus sollicitudin sodales.
+            </p>
+        </div>
+
+        <div>
+            <h4>South America</h4>
+            <img src="img/amazon-flex-1.jpg" alt="amazon-img">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Proin libero lorem, tincidunt non purus quis, euismod tempor dui. 
+                Donec tempus sollicitudin sodales.
+            </p>
+        </div>
+
+        <div>
+            <h4>Asia</h4>
+            <img src="img/himalayas-flex-1.jpg" alt="himalayas-img">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Proin libero lorem, tincidunt non purus quis, euismod tempor dui. 
+                Donec tempus sollicitudin sodales.
+            </p>
+        </div>
+
+        <div>
+            <h4>Africa</h4>
+            <img src="img/baobabs.jpg" alt="baobabs-img">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Proin libero lorem, tincidunt non purus quis, euismod tempor dui. 
+                Donec tempus sollicitudin sodales.
+            </p>
+        </div>
+
+        <div>
+            <h4>Australia</h4>
+            <img src="img/uluru.jpg" alt="uluru-img">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Proin libero lorem, tincidunt non purus quis, euismod tempor dui. 
+                Donec tempus sollicitudin sodales.
+            </p>
+        </div>
+    </div>
+    <a class='destinations-link' href="destinations.html">
+        <div class='see-destinations'>
+            <h2>SEE DESTINATIONS</h2>
+            <img src="img/cappadocia.jpg" alt="cappadocia-img">
+            <img src="img/faroe.jpg" alt="faroe-img">
+            <img src="img/plitvicka.jpg" alt="plitvicka-img">
+            <img src="img/moher.jpg" alt="moher-img">
+        </div>
+    </a>
+
+    <footer>
+        <div>
+            <h4>DESTINATIONS</h4>
+            <ul>
+                <li>Europe</li>
+                <li>South America</li>
+                <li>North America</li>
+                <li>Asia</li>
+                <li>Africa</li>
+                <li>Australia</li>
+            </ul>
+        </div>
+        <div>
+            <h4>PARTNERS</h4>
+            <ul>
+                <li>WeTravel</li>
+                <li>TopDestinations2day</li>
+                <li>AsiaTravels</li>
+            </ul>
+        </div>
+        <div>
+            <h4>WHAT'S NEW</h4>
+            <ul>
+                <li>2 tickets for the price of one</li>
+                <li>Discount for SA destinations</li>
+            </ul>
+        </div>
+        <div>
+            <h4>CONTACT US</h4>
+            <ul>
+                <li>Phone: +999 999 9999</li>
+                <li><a href="#">Visit us here</a></li>
+                <li>email: travthew@gmail.com</li>
+            </ul>
+        </div>
+        <div class='footer-descr'>
+            <div class='other-div'>
+                <span class='copyright'><a href="index.html">&copy; 2020 Travel the World</a></span>
+                <span class='sitemap other'>Site Map</span>
+                <span class='other'>Cookies</span>
+                <span class='other'>Ads Choices</span>
+                <span class='other'>Careers</span>
+            </div>
+            <div class='social'>
+                <svg class='insta' width="18" height="18" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.00005 18.036C6.54 18.036 6.25 18.023 5.29 17.981C4.54137 17.9564 3.80244 17.8042 3.105 17.531C1.89831 17.0614 0.94414 16.1069 0.475 14.9C0.21231 14.2 0.07062 13.4605 0.056 12.713C-7.45058e-09 11.755 0 11.441 0 9C0 6.533 0.013 6.245 0.056 5.29C0.07094 4.54353 0.21262 3.80501 0.475 3.106C0.94363 1.89753 1.89935 0.94218 3.108 0.474C3.80665 0.21021 4.54535 0.0681499 5.292 0.0539999C6.247 -1.00583e-07 6.561 0 9.00005 0C11.48 0 11.765 0.0129999 12.71 0.0539999C13.4585 0.0682699 14.1993 0.21031 14.9001 0.474C16.1084 0.94271 17.0639 1.89788 17.5331 3.106C17.8001 3.8152 17.9426 4.56526 17.9541 5.323C18.01 6.28101 18.01 6.59401 18.01 9.034C18.01 11.474 17.996 11.794 17.9541 12.741C17.9391 13.4892 17.7971 14.2294 17.534 14.93C17.0637 16.1377 16.108 17.0926 14.9001 17.562C14.2003 17.8242 13.4611 17.9659 12.714 17.981C11.759 18.036 11.446 18.036 9.00005 18.036ZM8.96605 1.583C6.52 1.583 6.266 1.595 5.311 1.638C4.74099 1.64556 4.17648 1.75075 3.642 1.949C2.85276 2.25101 2.22823 2.873 1.923 3.661C1.72322 4.2013 1.61801 4.77198 1.612 5.348C1.559 6.317 1.559 6.571 1.559 9C1.559 11.4 1.568 11.691 1.612 12.654C1.62096 13.2242 1.7261 13.7888 1.923 14.324C2.22868 15.1115 2.8531 15.733 3.642 16.035C4.17612 16.2346 4.74085 16.3398 5.311 16.346C6.279 16.402 6.534 16.402 8.96605 16.402C11.4191 16.402 11.673 16.39 12.62 16.346C13.1904 16.3391 13.7553 16.2339 14.29 16.035C15.0744 15.7304 15.695 15.1103 16.0001 14.326C16.1995 13.7853 16.3046 13.2143 16.3111 12.638H16.3221C16.365 11.682 16.3651 11.427 16.3651 8.984C16.3651 6.54101 16.354 6.284 16.3111 5.329C16.302 4.75946 16.1969 4.19552 16.0001 3.661C15.6957 2.87558 15.075 2.2543 14.29 1.949C13.7554 1.74975 13.1904 1.64453 12.62 1.638C11.653 1.583 11.4001 1.583 8.96605 1.583ZM9.00005 13.619C7.12995 13.6202 5.44342 12.4947 4.72687 10.7675C4.01031 9.0402 4.40491 7.0513 5.72663 5.72847C7.04835 4.4056 9.03685 4.00928 10.7647 4.72434C12.4926 5.4394 13.6195 7.125 13.62 8.995C13.6172 11.5461 11.5511 13.614 9.00005 13.619ZM9.00005 5.993C7.34315 5.993 6 7.3362 6 8.993C6 10.6499 7.34315 11.993 9.00005 11.993C10.6568 11.993 12 10.6499 12 8.993C11.9962 7.3377 10.6552 5.99685 9.00005 5.993ZM13.8 5.28001C13.2055 5.2778 12.7249 4.79459 12.726 4.20001C12.7271 3.60543 13.2094 3.12401 13.804 3.12401C14.3985 3.12401 14.8809 3.60542 14.8821 4.2C14.8823 4.48687 14.7682 4.76203 14.5652 4.96468C14.3622 5.16734 14.0869 5.2808 13.8 5.28001Z" fill="white"/>
+                </svg>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 9.99858C0.00117 14.918 3.57841 19.1067 8.43705 19.8776V12.8886H5.9V9.99858H8.44005V7.79862C8.32645 6.75617 8.68255 5.71723 9.41165 4.96356C10.1407 4.2099 11.1673 3.81964 12.213 3.89862C12.9635 3.91075 13.7121 3.97759 14.453 4.09863V6.55762H13.189C12.7538 6.50063 12.3163 6.64435 11.9998 6.94829C11.6832 7.25224 11.5217 7.68351 11.561 8.12058V9.99858H14.332L13.889 12.8896H11.561V19.8776C16.8154 19.0472 20.5001 14.2484 19.9456 8.95768C19.391 3.66699 14.7912 -0.263445 9.47885 0.0138048C4.16636 0.291055 0.00085 4.67893 0 9.99858Z" fill="white"/>
+                </svg>
+                <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.454 2.6792C19.3504 2.14329 20.0212 1.29944 20.341 0.305203C19.4987 0.805003 18.577 1.15708 17.616 1.3462C16.2836 -0.063267 14.1725 -0.406277 12.4624 0.508853C10.7523 1.42398 9.86648 3.37069 10.3 5.2612C6.8496 5.08797 3.63496 3.45811 1.456 0.777203C0.31884 2.73862 0.89995 5.24598 2.784 6.50721C2.10271 6.48531 1.43652 6.30081 0.841 5.9692C0.841 5.9872 0.841 6.00521 0.841 6.02321C0.84139 8.06631 2.28137 9.82631 4.284 10.2312C3.65206 10.4031 2.9892 10.4284 2.346 10.3052C2.9092 12.0525 4.51955 13.2495 6.355 13.2852C4.83483 14.4783 2.95747 15.1254 1.025 15.1222C0.68247 15.1227 0.34021 15.103 0 15.0632C1.96239 16.3242 4.24636 16.9935 6.579 16.9912C9.82428 17.0135 12.943 15.7341 15.2377 13.4392C17.5324 11.1443 18.8116 8.02541 18.789 4.7802C18.789 4.5942 18.7847 4.4092 18.776 4.2252C19.6165 3.6178 20.3418 2.86535 20.918 2.0032C20.135 2.35026 19.3045 2.57812 18.454 2.6792Z" fill="white"/>
+                </svg>
+                <svg width="20" height="14" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.0207 14.012H10.0007C9.93865 14.012 3.73565 14 2.17065 13.575C1.31008 13.3432 0.638002 12.6707 0.406652 11.81C0.125232 10.2224 -0.0106582 8.6123 0.000651841 7C-0.00661816 5.385 0.132962 3.77271 0.417652 2.183C0.655362 1.32151 1.32448 0.64595 2.18365 0.4C3.70565 8.9407e-08 9.73765 0 9.99365 0H10.0147C10.0777 0 16.2967 0.0119998 17.8457 0.437C18.7045 0.67001 19.3752 1.3411 19.6077 2.2C19.8981 3.79354 20.0344 5.4113 20.0147 7.031C20.0217 8.644 19.8818 10.2543 19.5967 11.842C19.3624 12.7016 18.6899 13.3726 17.8297 13.605C16.3097 14.008 10.2767 14.012 10.0207 14.012ZM8.02065 4.005L8.01565 10.005L13.2277 7.005L8.02065 4.005Z" fill="white"/>
+                </svg>     
+            </div>
+        </div>
+    </footer>
+    <script src="js/slideshow.js"></script> 
+</body>
+</html>

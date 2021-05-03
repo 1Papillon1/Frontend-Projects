@@ -1,0 +1,32 @@
+@import '../_variables'
+@import '../_mixins'
+.search-bar 
+    @include default-margin
+    position: absolute
+    height: 48px
+    margin-top: 203px
+    input 
+        display: inline
+    #search-bar 
+        width: 90%
+        padding: 15px 30px 17px 13px
+        background: #DBDBDB 
+        border-radius: 15px
+        outline: none
+        border: none
+        font-family: $textfontfamily 
+        font-size: 14px
+    #search-btn 
+        position: absolute
+        margin-left: -2%
+        width: 12%
+        height: 100%
+        background: #D8D7D7
+        outline: none
+        border: none
+        font-family: $primaryfontfamily 
+        font-size: 20px
+    #search-btn:hover 
+        cursor: pointer
+
+        

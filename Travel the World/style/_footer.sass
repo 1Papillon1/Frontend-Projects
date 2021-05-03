@@ -1,0 +1,60 @@
+@import '_variables'
+@import '_mixins'
+footer 
+    color: white
+    display: flex
+    justify-content: center
+    > div 
+        width: 250px
+        text-align: left
+        h4 
+            font-family: $primaryfontfamily
+            padding-bottom: 0px
+            margin-bottom: 14px
+            font-size: 16px
+        ul
+            list-style-type: none
+            padding-left: 0px 
+            margin-left: 0px
+            font-family: $textfontfamily
+            font-size: 14px
+            li 
+                width: fit-content
+                a 
+                    text-decoration: none 
+                    color: white
+            li:hover 
+                text-decoration: underline
+                cursor: pointer
+    .footer-descr
+        position: absolute
+        text-align: center
+        margin-top: 198px
+        width: 100%
+        margin-left: -170px
+        span 
+            font-family: $textfontfamily
+            font-size: 12px
+        span:hover 
+            text-decoration: underline
+            cursor: pointer
+        .copyright 
+            padding-right: 31px
+            border-right: 1px solid white
+            a 
+                @include backlinks
+        .other, .social
+            margin-left: 62px
+        .sitemap 
+            margin-left: 31px
+        .other-div 
+            display: inline
+        .social 
+            display: inline
+            position: absolute
+            a 
+                @include backlinks
+            svg
+                margin-left: 15px
+            .insta 
+                margin-left: 0px
