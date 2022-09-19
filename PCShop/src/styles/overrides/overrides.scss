@@ -1,0 +1,28 @@
+/* 
+    overrides.scss
+*/ 
+
+select {
+    display: block;
+    padding: 5px 2px;
+    position: relative;
+    float: right;
+    bottom: 20px;
+    right: 150px;
+    width: 177px;
+}
+
+
+
+
+.react-tel-input .form-control {
+    width: 177px;
+}
+
+
+.react-tel-input {
+    float: right;
+    width: 177px;
+    right: 150px;
+    bottom: 25px;
+}

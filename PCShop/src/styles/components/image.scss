@@ -1,0 +1,12 @@
+/* 
+    image.scss 
+*/ 
+
+.image {
+    width: 250px;
+    height: 270px;
+    &--secondary {
+        width: 130px;
+        height: 150px;
+    }
+}

@@ -1,0 +1,73 @@
+{ "products" : [
+        {
+            "id" : 1,
+            "name" : "FENIKS Bluebird 4008",
+            "price" : 509.99,
+            "description" : "AMD RYZEN 3 PRO 3200G/8GB",
+            "src" : "./feniks.jpg"
+        },
+        {
+            "id" : 2,
+            "name" : "RAVEN 6022",
+            "price" : 800,
+            "description" : "RAVEN 6022 AMD Ryzen 5/8GB 240GB SSD/GT 1030",
+            "src" : "./Raven.jpg"
+        },
+        {
+            "id" : 3,
+            "name" : "MEGA 5000",
+            "price" : 1049.99,
+            "description" : "I5-10400F/16GB/SSD500GB/GTX1650",
+            "src" : "./mega.jpg"
+        },
+        {
+            "id" : 4,
+            "name" : "X-X i2291 gamer",
+            "price" : 1499.99,
+            "description" : "Intel Core i5-9400F/8GB/SSD240/GTX1660",
+            "src" : "./x-x.jpg"
+        },
+        {
+            "id" : 5,
+            "name" : "FENIKS Bluebird 4000",
+            "price" : 649.99,
+            "description" : "AMD RYZEN 5 3400GE 3.3/VEGA 11 CPU",
+            "src" : "./feniks-2.jpg"
+        },
+        {
+            "id" : 6,
+            "name" : "PCplus gamer",
+            "price" : 2049.99,
+            "description" : "R 5 5600X/16GB/SSD512GB+2TB/GTX1660S",
+            "src" : "./pcplus.jpg"
+        },
+        {
+            "id" : 7,
+            "name" : "HP Compaq 8100 Elite",
+            "price" : 169.99,
+            "description" : "I3-530/4GB DDR3",
+            "src" : "./hp.jpg"
+        },
+        {
+            "id" : 8,
+            "name" : "X-X i2232 gamer",
+            "price" : 1349.99,
+            "description" : "I3-9100F/8GB DDR4/GTX 1650",
+            "src" : "./x-x-2.jpg"
+        },
+        {
+            "id" : 9,
+            "name" : "Scorpion SX 20045",
+            "price" : 1349.99,
+            "description" : "AMD RYZEN 5/16GB/ GTX 1660 SUPER",
+            "src" : "./SCORPION.jpg"
+        },
+        {
+            "id" : 10,
+            "name" : "RAVEN 5019",
+            "price" : 800,
+            "description" : "Intel Core i3-10100F/8GB/GTX 1650",
+            "src" : "./raven-2.jpg"
+        }
+    ]
+}

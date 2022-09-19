@@ -1,0 +1,16 @@
+/* 
+    title.scss
+*/ 
+
+.title  {
+    margin-left: 15%;
+    &--secondary {
+        margin-left: 0%;
+        font-size: 24px;
+        font-family: Helvetica;
+        margin: 0px;
+        background: black;
+        color: white;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,21 @@
+/* 
+    navigation.scss
+*/ 
+
+.navigation {
+    margin: 0;
+    width: 100%;
+    background: black;
+    &__list {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        overflow: auto;
+        &__item {
+            color: white;
+            float: right;
+            
+        }
+    }
+
+}

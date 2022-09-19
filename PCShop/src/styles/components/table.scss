@@ -1,0 +1,29 @@
+/* 
+    table.scss
+*/ 
+
+.table {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 12%;
+    margin-right: 12%;
+    &__header {
+        width: 100%;
+        font-family: Helvetica;
+        font-size: 18px;
+        &__column {
+            width: 200px;
+            &:first-child {
+                width: 150px;
+            }
+        }
+    }
+    &__row {
+        &__data {
+            font-family: Georgia;
+            font-size: 18px;
+            padding: 30px 0px;
+        }
+    }
+}

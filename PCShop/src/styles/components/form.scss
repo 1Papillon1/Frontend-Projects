@@ -1,0 +1,53 @@
+/*
+    form.scss
+*/ 
+
+.form {
+    border-radius: 10px;
+    overflow: auto;
+    padding-bottom: 20px;
+    &__label {
+        display: block;
+        font-family: Helvetica;
+        margin-top: 30px;
+        margin-left: 10px;
+        &::after {
+            content:"*";
+            color: red;
+        }
+        &--secondary {
+            display: inline-block;
+            font-weight: 500;
+            &::after {
+                content: "";
+            }
+        }
+    }
+    &__title {
+        font-weight: 100;
+        margin-left: 10px;
+        font-size: 18px;
+        font-family: Georgia;
+        margin-top: 30px;
+        clear: both;
+        margin-bottom: 0px;
+    }
+    &__input {
+        display: block;
+        padding: 5px 2px;
+        position: relative;
+        float: right;
+        bottom: 20px;
+        right: 150px;
+        &--secondary {
+            float: none;
+            clear: both;
+            position: static;
+            display: inline-block;
+        }
+    }
+    &__checkbox, &__radio {
+        margin-left: 10px;
+        font-weight: 300;
+    }
+}

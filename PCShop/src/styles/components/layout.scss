@@ -1,0 +1,32 @@
+/* 
+    layout.scss
+*/ 
+
+.layout {
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    display: flex;
+    &__box {
+        &--secondary{
+        border: 1px solid lightgray;
+        margin: 0px 10px;
+        margin-top: 70px;
+        border-radius: 15px;
+        }
+    }
+    &__title {
+        background: lightgray;
+            margin-top: 0px;
+            border-top-left-radius: 14px;
+            border-top-right-radius: 14px;
+            font-size: 24px;
+            font-family: Helvetica;
+            padding: 10px;
+        &--secondary {
+            font-size: 20px;
+            background: none;
+            border-radius: 0px;
+        }
+    }
+}
