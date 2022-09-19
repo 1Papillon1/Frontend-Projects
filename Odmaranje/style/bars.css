@@ -1,0 +1,21 @@
+.progress {
+    width: 100%;
+    background-color: #ddd;
+    margin: 0;
+  }
+  
+  #progress__bar {
+  margin: 0;
+  height: 5px;
+  background-color: #ebf6f5;
+  text-align: center; 
+  line-height: 5px; 
+  }
+
+  #progress__bar--secondary {
+    margin: 0;
+    height: 5px;
+    background-color: #ebf6f5;
+    text-align: center; 
+    line-height: 5px; 
+    }

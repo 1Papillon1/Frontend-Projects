@@ -1,0 +1,40 @@
+.navigation {
+    border-bottom: 1px solid #5cbdb9;
+    padding: 15px 0px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 18px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 10vw;
+}
+
+.list__link {
+    text-decoration: none;
+    color: black;
+    margin: 0px 30px;
+    padding: 10px 25px;
+}
+
+.list__link:hover {
+    background: #fbebef94;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.list__link--active {
+    background-color: #fbe3e8;
+    border-radius: 15px;
+}
+
+.list__link--active:hover {
+    background-color: #fbe3e8;
+}
+
+
+.list__item {
+    display: inline;
+    padding: 0px;
+}
