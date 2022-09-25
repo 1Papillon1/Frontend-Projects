@@ -1,0 +1,11 @@
+.button {
+    padding: 5px 10px; 
+    font-family: 'Jockey One', sans-serif;
+    border: #5cbdb9;
+    border-radius: 15px;
+    font-size: 32px;
+}
+
+.button:hover {
+    cursor: pointer;
+}

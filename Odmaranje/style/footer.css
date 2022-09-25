@@ -1,0 +1,14 @@
+.footer {
+    background: #84d4d1;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 25px 0px;
+    font-family: 'Jockey One', sans-serif;
+    display: none;
+}
+
+.footer__title {
+    margin-left: 40px;
+    font-size: 12px;
+}
