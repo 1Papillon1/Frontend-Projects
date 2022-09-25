@@ -1,6 +1,7 @@
-// main
-function showMain() {
+// elements
+function showElements() {
     document.getElementById("main").style.display = "block";
+    document.getElementById("footer").style.display = "block";
   }
 
 // layout - bar
@@ -16,14 +17,14 @@ function progressBarFirst() {
     i = 1;
     let elem = document.getElementById("progress__bar");
     let width = 1;
-    let id = setInterval(frame, 15);
+    let id = setInterval(frame, 7);
     function frame() {
       if (width >= 100) {
         clearInterval(id);
         i = 0;
         layout.style.display = "none";
         elem.style.display = "none";
-        showMain();
+        showElements();
       } else {
         width++;
         elem.style.width = width + "%";
@@ -39,7 +40,7 @@ function progressBarsecondary() {
     j = 1;
     let elem = document.getElementById("progress__bar--secondary");
     let width = 1;
-    let id = setInterval(frame, 15);
+    let id = setInterval(frame, 7);
     function frame() {
       if (width >= 100) {
         clearInterval(id);
