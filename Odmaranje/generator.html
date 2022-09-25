@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POCETNA | ODMARANJE</title>
+    <title>GENERATOR | ODMARANJE</title>
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./style/bars.css">
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/navigation.css">
+    <link rel="stylesheet" href="./style/buttons.css">
+    <link rel="stylesheet" href="./style/images.css">
+    <link rel="stylesheet" href="./style/section.css">
+    <link rel="stylesheet" href="./style/wrapper.css">
+    <link rel="stylesheet" href="./style/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
@@ -28,10 +33,148 @@
         </nav>
     </div>
       
+    <div class="layout layout--secondary">
+        <div class="wrapper">
+            <button class="button" onclick="generate()">Generiraj</button>
+        </div>
+        <div id="gen_division" class="layout__section">
+
+            <div class="section__block" id="meditacija">
+                <h2 class="section__block__title">Meditacija</h2>
+                <img class="image" src="./style/img/meditacija.jpg" alt="image"/>
+                <p class="section__block__description">
+                    sve što trebate učiniti je slušati i uskladiti se s onim što se fizički događa od vrha glave do dna stopala.
+                </p>
+                <ul>
+                    <li>Pronađite mjesto za sjedenje u mirnom i tihom okruženju</li>
+                    <li>Postavite vremensko ograničenje</li>
+                    <li>Fokusirajte se na disanje</li>
+                    <li>Primijetite znatiželju svoga uma</li>
+                    <li>Prihvatite misli</li>
+                </ul>
+            </div>
+
+            <div class="section__block" id="spavanje">
+                <h2 class="section__block__title">Spavanje</h2>
+                <img class="image" src="./style/img/spavanje.png" alt="image"/>
+                <p class="section__block__description">
+                    Svatko bi trebao nastojati spavati dovoljno svake noći i poduzeti mjere za osiguranje optimalne kvalitete sna. Pojam higijena spavanja odnosi se na navike i ponašanja povezana s vašom rutinom spavanja. Pridržavanje smjernica zdrave higijene spavanja može vam pomoći osigurati odgovarajuću količinu kvalitetnog sna svake noći. Ove smjernice uključuju:
+                </p>
+                <ul>
+                    <li>Odlazak u krevet i buđenje u isto vrijeme svaki dan</li>
+                    <li>Izbjegavanje drijemanja nakon 15 sati</li>
+                    <li>Uključivanje u opuštajuće aktivnosti u večernjim satima</li>
+                    <li>Stvaranje mračnog, tihog okruženja spavaće sobe koje je pogodno za san</li>
+                </ul>
+            </div>
+
+            <div class="section__block" id="yoga">
+                <h2 class="section__block__title">Joga</h2>
+                <img class="image" src="./style/img/yoga.png" alt="image"/>
+                <p class="section__block__description">
+                    Prema Nacionalnom institutu za zdravlje, znanstveni dokazi pokazuju da joga pomaže u kontroli stresa, mentalnom zdravlju, svjesnosti, zdravoj prehrani, mršavljenju i kvalitetnom snu.
+                </p>
+                <ul>
+                    <li>
+                        Odredite fokus svoje prakse joge</li>
+                    <li>Budite svjesni da ne postoji nešto poput "dobre" ili "ispravne" joge</li>
+                    <li>Prikupite svu opremu s kojom želite vježbati</li>
+                    <li>Nosite prozračnu odjeću u kojoj se možete kretati</li>
+                    <li>Pronađite udobno mjesto za vježbanje</li>
+                    <li>Zagrijte se uz pozdrav suncu</li>
+                    <li>Usredotočite se na svoje disanje</li>
+                    <li>Naučite nekoliko joga asana</li>
+                </ul>
+            </div>
+
+            <div class="section__block" id="pivo">
+                <h2 class="section__block__title">Pivo</h2>
+                <img class="image" src="./style/img/pivo.jpg" alt="image"/>
+                <p class="section__block__description">
+                    Ima istine u ideji da alkohol može smanjiti stres. Alkohol je sedativ i depresor koji utječe na središnji živčani sustav. U početku, piće može smanjiti strahove i skrenuti vaš um sa svojih nevolja. Može vam pomoći da se osjećate manje sramežljivim, poboljšati vam raspoloženje i učiniti da se općenito osjećate opušteno. Nemojte pretjerivati!
+                </p>
+            </div>
+
+            <div class="section__block" id="caj">
+                <h2 class="section__block__title">Čaj</h2>
+                <img class="image" src="./style/img/caj.jpg" alt="image"/>
+                <p class="section__block__description">
+                    Kuhanje čaja kao metodički zadatak koji traje samo par minuta, ali je potreban vaš fokus; u pravilu ovaj zadatak vam omogućuj tih nekoliko minuta mentalne tišine što može isto odmoriti um.
+                </p>
+            </div>
+
+            <div class="section__block" id="film">
+                <h2 class="section__block__title">Film</h2>
+                <img class="image" src="./style/img/film.jpg" alt="image"/>
+                <p class="section__block__description">
+                    Kad ne znate što biste sa sobom, želite se odmoriti ili pak želite začiniti kućno druženje - gledanje filma uvijek je dobra opcija.
+                </p>
+                <ul>
+                    <li>Netflix</li>
+                    <li>Hulu</li>
+                    <li>Disney+</li>
+                    <li>Amazon Prime</li>
+                    <li>Scener</li>
+                </ul>
+            </div>
+
+            <div class="section__block" id="misli">
+                <h2 class="section__block__title">Misli</h2>
+                <img class="image" src="./style/img/misli.jpg" alt="image"/>
+                <p class="section__block__description">
+                    Zvuči intenzivno, ali ovo nije komplicirano. Holmes preporučuje da odložite svoj telefon i zatvorite zaslon prijenosnog računala na 10 minuta za neko potrebno "kontemplativno vrijeme da budete jedno sa svojim mislima", naglašavajući važnost dodirivanja baze sa samim sobom tijekom dana.
+                </p>
+                <ul>
+                    <li>Prepustite se savršenstvu. Umjesto da se nadate i borite za "praznu ploču" ili potpuno blaženstvo, prihvatite da će vaš um proizvoditi mnogo misli.</li>
+                    <li>Pozovite znatiželju</li>
+                    <li>Dišite</li>
+                    <li>Osjetite svoju okolinu</li>
+                    <li>Nemojte se uzrujavati zbog toga što ste uzrujani</li>
+                    <li>Potražite svoje središte</li>
+                </ul>
+            </div>
+
+            <div class="section__block" id="sretno">
+                <h2 class="section__block__title">"Sretno mjesto"</h2>
+                <img class="image" src="./style/img/sretno.jpg" alt="image"/>
+                <p class="section__block__description">
+                    Pronađite sunčano mjesto i razmislite o svom sretnom mjestu. Bilo da je to u vašem fantazijskom pansionu ili na plaži u Tajlandu, taj čin vizualizacije mjesta vedrine pomoći će vam da se osjećate smirenije.
+                </p>
+                <ul>
+                    <li>Započnite tako da odete na mjesto koje je tiho i gdje vas nitko neće ometati 15-ak minuta.</li>
+                    <li>Zauzmite udoban položaj</li>
+                    <li>Udahnite duboko, sporo</li>
+                    <li>Razmislite o nekom mjestu na kojem ste bili (ili zamišljali, ili vidjeli u filmu) koje je vrlo ugodno, mirno, umirujuće</li>
+                </ul>
+            </div>
+
+            <div class="section__block" id="disanje">
+                <h2 class="section__block__title">Disanje</h2>
+                <img class="image" src="./style/img/disanje.jpg" alt="image"/>
+                <p class="section__block__description">
+                    Vježbajte metodu disanja 4-7-8. Kako biste se stvarno usredotočili na svoje disanje, isprobajte metodu dubokog disanja 4-7-8. Zatvorite oči, udišite kroz nos četiri sekunde, zadržite sedam sekundi i izdišite kroz usta osam sekundi. Ponavljajte nekoliko minuta.
+                </p>
+            </div>
+
+        </div>
+        <!--meditacija: Image by <a href="https://pixabay.com/users/leninscape-2892621/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2176668">Shahariar Lenin</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2176668">Pixabay</a>-->
+        <!--spavanje: Image by <a href="https://pixabay.com/users/cdd20-1193381/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1180921">愚木混株 Cdd20</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1180921">Pixabay</a>-->
+        <!--yoga: Image by <a href="https://pixabay.com/users/syaibatulhamdi-13452116/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5508336">Syaibatul Hamdi</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5508336">Pixabay</a>-->
+        <!--pivo: Image by <a href="https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2288121">Alexa</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2288121">Pixabay</a>-->
+        <!--caj: Image by <a href="https://pixabay.com/users/congerdesign-509903/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=829527">congerdesign</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=829527">Pixabay</a>-->
+        <!--Film: Image by <a href="https://pixabay.com/users/derks24-5892478/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2502213">Alfred Derks</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2502213">Pixabay</a>-->
+        <!--misli: Image by <a href="https://pixabay.com/users/debowscyfoto-243623/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=438373">debowscyfoto</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=438373">Pixabay</a>-->
+        <!--sretno mjesto: Image by <a href="https://pixabay.com/users/debowscyfoto-243623/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=438373">debowscyfoto</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=438373">Pixabay</a>-->
+        <!--4-7-8 disanje: Image by <a href="https://pixabay.com/users/sarahrichterart-1546275/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2435605">Sarah Richter</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2435605">Pixabay</a>-->
+    </div>
+    <footer class="footer" id="footer" style="display:block;">
+        <h3 class="footer__title">&copy; 2022 Odmaranje Inc</h2>
+    </footer>
 </body>
 
 <script src="./script/index.js"></script>
 <script src="./script/bars.js"></script>
+<script src="./script/generator.js"></script>
 <script>
 window.onload = function () {
      document.getElementById("main").style.display = "block";

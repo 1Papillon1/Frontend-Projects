@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/navigation.css">
     <link rel="stylesheet" href="./style/section.css">
+    <link rel="stylesheet" href="./style/next.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/slideshow.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
@@ -41,15 +44,62 @@
             </ul>
         </nav>
 
-        <section class="section">
-            <h2 class="section__title">Odmaranje</h2>
-        </section>
+
+<!-- Slideshow container -->
+<div class="slideshow__container">
+
+    <!-- Full-width slides/quotes -->
+    <div class="mySlides">
+      <q>I have never taken any exercise, except sleeping and resting, and I never intend to take any.</q>
+      <p class="author">- Mark Twain</p>
+    </div>
+  
+    <div class="mySlides">
+      <q>I'll get seven hours sleep a night, but after breakfast, I'll have an hour just resting, to recover. In Spain they all have siestas, even businessmen.</q>
+      <p class="author">- Anthony Joshua</p>
+    </div>
+  
+    <div class="mySlides">
+      <q>It's about working hard, resting when you need to, leading a healthy life, and having a support structure around you. These factors help you improve.</q>
+      <p class="author">- Adama Traore</p>
+    </div>
+
+    <div class="mySlides">
+        <q>Your commitment to your wellness is part of the revolution.</q>
+        <p class="author">- Danielle LaPorte</p>
+      </div>
+  
+    <!-- Next/prev buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  
+  <!-- Dots/bullets/indicators -->
+  <div class="dot__container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
+  <section class="section">
+    <h2 class="section__title">Odmaranje</h2>
+    <article class="section__article">
+        Odmaranjem (prekidanje, usporavanje ili promjena aktivnosti radi obnavljanja funkcionalne sposobnosti organizma). Oporavak je brži što je rad u fazi umora ranije prekinut. To znači da je potrebno organizirati odmor prije nego se pojave znakovi umora. Ispitivanja su pokazala da je racionalnije organizirati više kraćih nego manji broj dužih odmora, ali isto tako treba znati da odmor ne smije trajati prekratko jer u tom slučaju ne može doći do potpunog oporavka organizma.
+    </article>
+
+</section>
 
     </div>
       
+<footer class="footer" id="footer">
+    <h3 class="footer__title">&copy; 2022 Odmaranje Inc</h2>
+</footer>
+
 </body>
 
 <script src="./script/index.js"></script>
 <script src="./script/bars.js"></script>
+<script src="./script/slideshow.js"></script>
 
 </html>
